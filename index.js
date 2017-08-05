@@ -11,7 +11,7 @@ $routeProvider
 		controller: 'NgPalindrome'
 	})
 	.when('/reddit', {
-		templateUrl: 'view1.html',
+		templateUrl: 'view1/view1.html',
 		controller: 'MainCtrl'
 	})
 	.otherwise({

@@ -1,4 +1,4 @@
-var app = angular.module('reddit');
+var app = angular.module('myModule');
 app.factory('RedditFactory', function($http){
   var postData;
 

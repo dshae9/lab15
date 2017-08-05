@@ -6,7 +6,7 @@
   </head>
   <body>
 
-    <div ng-app='myModule' ng-controller=''>
+    <div ng-app='myModule'>
 
     <nav>
       <a href="#main"> Home </a>
@@ -14,8 +14,9 @@
       <a href="#reddit"> Reddit </a>
     </nav>
 
+<ng-view></ng-view>
 
-
+{{2+2}}
 
 
 
@@ -30,5 +31,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js">
     </script>
     <script src="index.js"></script>
+    <script type="text/javascript" src="view1/reddit.factory.js"></script>
+    <script type="text/javascript" src="view1/view1.controller.js"></script>
   </body>
 </html>
