@@ -3,7 +3,7 @@ var app = angular.module('myModule', ['ngRoute']);
 app.config(function($routeProvider, $locationProvider){
 $routeProvider
 	.when('/main', {
-		templateUrl: 'main.html',
+		templateUrl: 'main/main.html',
 		controller: 'MainCtrl'
 	})
 	.when('/ngPalindrome', {
