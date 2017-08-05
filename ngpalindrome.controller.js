@@ -1,4 +1,4 @@
-var app = angular.module('myModule', []);
+var app = angular.module('myModule');
 
 
 app.controller('NgPalindrome', function($scope){

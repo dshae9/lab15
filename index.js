@@ -12,7 +12,7 @@ $routeProvider
 	})
 	.when('/reddit', {
 		templateUrl: 'view1/view1.html',
-		controller: 'MainCtrl'
+		controller: 'RedditCtrl'
 	})
 	.otherwise({
 		redirectTo: '/main'

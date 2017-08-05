@@ -1,6 +1,6 @@
 var app = angular.module ('myModule');
 
-app.controller('MainCtrl', function($scope, $timeout, RedditFactory){
+app.controller('RedditCtrl', function($scope, $timeout, RedditFactory){
 
   RedditFactory.getPosts()
   .then(function(result){
