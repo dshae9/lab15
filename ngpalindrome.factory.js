@@ -1,6 +1,6 @@
 var app = angular.module('myModule');
 
-app.factory('PalindromeFactory', function($scope){
+app.factory('PalindromeFactory', function(){
 	return {
 		isPalindrome: isPalindrome
 	};
@@ -10,4 +10,4 @@ app.factory('PalindromeFactory', function($scope){
 		var palReverse = lowerPal.split('').reverse().join("");
 		return palReverse === lowerPal;
 	}
-});
+}); 
