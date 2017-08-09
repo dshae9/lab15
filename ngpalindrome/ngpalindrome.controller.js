@@ -11,7 +11,8 @@ app.controller('NgPalindrome', function($scope, PalindromeFactory){
       $scope.result = "This is not a Palindrome.";
     }
   $scope.newItem = "";
+  
 }
 
- 
+
 });
