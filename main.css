@@ -31,7 +31,21 @@ input	{
 	font-size: 
 }
 
-div.pResult {
+div {
 	font-size: 30px;
 	color: grey;
+}
+
+section	{
+	font-size: 20px;
+	color: charcoal;
+	border: solid 3px grey;
+	border-radius: 10px;
+	margin:	20px auto;
+	width: 60%;
+	background-color: Lavender;
+}
+
+img {
+	margin-top: 10px;
 }

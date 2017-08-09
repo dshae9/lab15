@@ -6,13 +6,12 @@ app.controller('NgPalindrome', function($scope, PalindromeFactory){
 
   $scope.submit = function(text) {
     if(PalindromeFactory.isPalindrome(text)){
-      $scope.result = $scope.newItem + " - This is a Palindrome.";
+      $scope.result = "<h2>This is a Palindrome.</h2>";
     } else{
-      $scope.result = $scope.newItem + " - This is not a Palindrome.";
+      $scope.result = "<h2>This is not a Palindrome.</h2>";
     }
   $scope.newItem = "";
-
 }
 
-
+ 
 });
