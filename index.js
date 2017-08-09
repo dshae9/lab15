@@ -4,7 +4,6 @@ app.config(function($routeProvider, $locationProvider){
 $routeProvider
 	.when('/main', {
 		templateUrl: 'main/main.html',
-		controller: 'MainCtrl'
 	})
 	.when('/ngPalindrome', {
 		templateUrl: 'ngPalindrome.html',
