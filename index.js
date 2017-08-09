@@ -6,7 +6,7 @@ $routeProvider
 		templateUrl: 'main/main.html',
 	})
 	.when('/ngPalindrome', {
-		templateUrl: 'ngPalindrome/ngPalindrome.html',
+		templateUrl: 'ngpalindrome/ngPalindrome.html',
 		controller: 'NgPalindrome'
 	})
 	.when('/reddit', {
